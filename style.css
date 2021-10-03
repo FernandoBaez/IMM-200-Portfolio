@@ -1,0 +1,47 @@
+header {
+  padding-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+main { 
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: open-sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3em; }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  
+}
+footer {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: open-sans, sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+img { max-width: 100%;
+              height: auto; }
+
+ul a:link,
+ul a:visited{
+  font-style: bold;
+  background-color: #000;
+  border: 2px solid red;
+  border-radius: .5em;
+  color: #fff;
+  padding: .5em;
+  display: inline-block;
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;}
